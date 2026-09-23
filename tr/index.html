@@ -95,9 +95,10 @@ a{color:inherit}img{max-width:100%;height:auto;display:block}
 <section class="sec flip pair"><div class="wrap"><div class="txt">Yüz/Parmak İzi Tanıma güvenlik desteğiyle ve her daim 'anonim' kalarak (kişisel veri paylaşmadan)</div><div class="img"><img src="https://oqftjahepualmvgqzdjb.supabase.co/storage/v1/object/public/site/7b.tr.webp?v=1790108137858" alt="" loading="lazy"><img src="https://oqftjahepualmvgqzdjb.supabase.co/storage/v1/object/public/site/7f.tr.webp?v=1790108138232" alt="" loading="lazy"></div></div></section>
 <section class="sec pair"><div class="wrap"><div class="txt">30 gün ücretsiz deneyerek</div><div class="img"><img src="https://oqftjahepualmvgqzdjb.supabase.co/storage/v1/object/public/site/8b.tr.webp?v=1790108138655" alt="" loading="lazy"><img src="https://oqftjahepualmvgqzdjb.supabase.co/storage/v1/object/public/site/8f.tr.webp?v=1790108139023" alt="" loading="lazy"></div></div></section>
 <section class="band"><div class="wrap">Kayıt (hesap/üyelik), giriş, şifre yoktur ve kişisel veri (ad, soyad, cinsiyet, yaş vb.) toplanmaz; 'yatırım tavsiyesi/danışmanlığı' yahut herhangi bir varlığa ilişkin saklama, al/sat emri/işlemi veya parasal herhangi bir hareket/işlem söz konusu değildir.</div></section>
-<section class="support"><div class="wrap"><form class="card" id="sf"><h2>Merak ettiğin/söylemek istediğin ne varsa</h2>
+<section class="support"><div class="wrap"><form class="card" id="sf"><h2>Merak ettiğin/söylemek istediğin<br>ne varsa</h2>
 <input name="email" type="email" placeholder="E-posta adresin (opsiyonel)">
-<textarea name="message" required maxlength="2000" placeholder="Merak ettiğin/söylemek istediğin ne varsa"></textarea>
+<textarea name="message" required maxlength="2000" placeholder="Merak ettiğin/söylemek istediğin
+ne varsa"></textarea>
 <button type="submit">GÖNDER</button></form></div></section>
 <footer class="foot"><div class="wrap"><img src="../assets/logo.png" alt="SpectAll">
 <div class="mission">Misyonumuz, tasarrufu teşvik ederek ve finansal okuryazarlığın gelişimine katkıda bulunarak, 'finansal özgürlük ve esenlik' kazanımını kolaylaştırmaktır.</div>
@@ -111,6 +112,6 @@ a{color:inherit}img{max-width:100%;height:auto;display:block}
 <script>(function(){var f=document.getElementById('sf');if(!f)return;f.addEventListener('submit',function(e){e.preventDefault();var b=f.querySelector('button');b.disabled=true;
 var body={message:f.message.value.trim(),email:f.email.value.trim()||null,locale:'tr',platform:'web',app_version:'web'};
 fetch('https://oqftjahepualmvgqzdjb.supabase.co/rest/v1/support_messages',{method:'POST',headers:{'apikey':'sb_publishable_LioKxsPKqIMEu7_-ioaTmA_90D0ndOi','Authorization':'Bearer sb_publishable_LioKxsPKqIMEu7_-ioaTmA_90D0ndOi','Content-Type':'application/json','Prefer':'return=minimal'},body:JSON.stringify(body)})
-.then(function(r){if(!r.ok)throw 0;f.innerHTML='<div class="ok">Mesajın alındı, teşekkürler;<br>en kısa sürede sana döneceğiz.</div>'})
+.then(function(r){if(!r.ok)throw 0;f.innerHTML='<div class="ok">Mesajın alındı, teşekkürler;<br>en kısa sürede sana döneceğiz</div>'})
 .catch(function(){b.disabled=false;var d=f.querySelector('.err');if(!d){d=document.createElement('div');d.className='err';f.appendChild(d)}d.innerHTML='Gönderilemedi,<br>bağlantını kontrol edip<br>tekrar dene lütfen'})})})();</script>
 </body></html>
