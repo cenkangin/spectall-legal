@@ -62,7 +62,10 @@ a{color:inherit}img{max-width:100%;height:auto;display:block}
 .foot .mission{font-style:italic;color:var(--onnavy);max-width:620px;margin:0 0 18px;font-size:16px}
 .foot a{color:var(--onnavy)}
 .foot nav{margin-top:22px;display:flex;gap:14px;flex-wrap:wrap;justify-content:center;align-items:center}
-.foot nav .sep{opacity:.45}
+/* The same ink as the separators in the About lines above (Market Data:
+   EODHD | CoinMarketCap | ForInvest) - they are plain text at full strength,
+   so a dimmed nav separator read as a different colour (founder, 2026-09-23). */
+.foot nav .sep{color:var(--onnavy2)}
 .foot .rights{margin-top:18px}
 .bar{position:fixed;left:0;right:0;bottom:0;z-index:6;background:#fff;border-top:1px solid #D6DCEA;padding:10px 16px;display:none;align-items:center;justify-content:space-between;gap:12px}
 .bar .cta{font-weight:600;font-size:14px;color:var(--navy);line-height:1.25}
@@ -78,7 +81,7 @@ a{color:inherit}img{max-width:100%;height:auto;display:block}
 }
 </style></head><body>
 <header class="top"><div class="wrap"><a href="./"><img src="assets/logo.png" alt="SpectAll"></a>
-<nav class="lang"><a href="privacy.tr.html" class="" hreflang="tr" onclick="try{localStorage.setItem('lang','tr')}catch(e){}">TR</a><span>|</span><a href="privacy.html" class="on" hreflang="en" onclick="try{localStorage.setItem('lang','en')}catch(e){}">EN</a></nav></div></header>
+<nav class="lang"><a href="privacy.html" class="on" hreflang="en" onclick="try{localStorage.setItem('lang','en')}catch(e){}">EN</a><span>|</span><a href="privacy.tr.html" class="" hreflang="tr" onclick="try{localStorage.setItem('lang','tr')}catch(e){}">TR</a></nav></div></header>
 <main class="wrap" style="max-width:760px;padding-top:40px;padding-bottom:80px"><h1 style="font-size:28px;margin:0 0 24px">Privacy Policy</h1>
 <article style="font-size:16px"><p>1. Personally Identifiable Information ('PII') is personal information (name, surname, gender, age, etc.) as to one's identity. Paramla Finansal Danışmanlık A.Ş. ('Paramla') does not collect any PII.</p>
 <p>2. The app settings are stored on the user's mobile device; data entered directly by the user is associated only with an anonymous, app-specific identifier; never with a name, e-mail address or phone number, i.e. any PII.</p>

@@ -62,7 +62,10 @@ a{color:inherit}img{max-width:100%;height:auto;display:block}
 .foot .mission{font-style:italic;color:var(--onnavy);max-width:620px;margin:0 0 18px;font-size:16px}
 .foot a{color:var(--onnavy)}
 .foot nav{margin-top:22px;display:flex;gap:14px;flex-wrap:wrap;justify-content:center;align-items:center}
-.foot nav .sep{opacity:.45}
+/* The same ink as the separators in the About lines above (Market Data:
+   EODHD | CoinMarketCap | ForInvest) - they are plain text at full strength,
+   so a dimmed nav separator read as a different colour (founder, 2026-09-23). */
+.foot nav .sep{color:var(--onnavy2)}
 .foot .rights{margin-top:18px}
 .bar{position:fixed;left:0;right:0;bottom:0;z-index:6;background:#fff;border-top:1px solid #D6DCEA;padding:10px 16px;display:none;align-items:center;justify-content:space-between;gap:12px}
 .bar .cta{font-weight:600;font-size:14px;color:var(--navy);line-height:1.25}
@@ -78,7 +81,7 @@ a{color:inherit}img{max-width:100%;height:auto;display:block}
 }
 </style></head><body>
 <header class="top"><div class="wrap"><a href="tr/"><img src="assets/logo.png" alt="SpectAll"></a>
-<nav class="lang"><a href="privacy.tr.html" class="on" hreflang="tr" onclick="try{localStorage.setItem('lang','tr')}catch(e){}">TR</a><span>|</span><a href="privacy.html" class="" hreflang="en" onclick="try{localStorage.setItem('lang','en')}catch(e){}">EN</a></nav></div></header>
+<nav class="lang"><a href="privacy.html" class="" hreflang="en" onclick="try{localStorage.setItem('lang','en')}catch(e){}">EN</a><span>|</span><a href="privacy.tr.html" class="on" hreflang="tr" onclick="try{localStorage.setItem('lang','tr')}catch(e){}">TR</a></nav></div></header>
 <main class="wrap" style="max-width:760px;padding-top:40px;padding-bottom:80px"><h1 style="font-size:28px;margin:0 0 24px">Gizlilik Politikası</h1>
 <article style="font-size:16px"><p>1. Kişiyi Belirleyici Bilgi ('KBB'), kişinin kimliğine ilişkin (ad, soyad, cinsiyet, yaş vb.) kişisel bilgidir. Paramla Finansal Danışmanlık A.Ş. ('Paramla'), herhangi bir KBB toplamaz.</p>
 <p>2. Uygulama ayarları kullanıcının mobil cihazında saklanır; doğrudan kullanıcı tarafından girilen veriler, yalnızca anonim ve uygulamaya özgü bir tanımlayıcıyla ilişkilendirilir; hiçbir zaman ad, e-posta adresi veya telefon numarası, yani herhangi bir KBB ile ilişkilendirilmez.</p>

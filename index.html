@@ -62,7 +62,10 @@ a{color:inherit}img{max-width:100%;height:auto;display:block}
 .foot .mission{font-style:italic;color:var(--onnavy);max-width:620px;margin:0 0 18px;font-size:16px}
 .foot a{color:var(--onnavy)}
 .foot nav{margin-top:22px;display:flex;gap:14px;flex-wrap:wrap;justify-content:center;align-items:center}
-.foot nav .sep{opacity:.45}
+/* The same ink as the separators in the About lines above (Market Data:
+   EODHD | CoinMarketCap | ForInvest) - they are plain text at full strength,
+   so a dimmed nav separator read as a different colour (founder, 2026-09-23). */
+.foot nav .sep{color:var(--onnavy2)}
 .foot .rights{margin-top:18px}
 .bar{position:fixed;left:0;right:0;bottom:0;z-index:6;background:#fff;border-top:1px solid #D6DCEA;padding:10px 16px;display:none;align-items:center;justify-content:space-between;gap:12px}
 .bar .cta{font-weight:600;font-size:14px;color:var(--navy);line-height:1.25}
@@ -77,9 +80,9 @@ a{color:inherit}img{max-width:100%;height:auto;display:block}
   .bar{display:flex}.foot{padding-bottom:140px}
 }
 </style></head><body>
-<script>(function(){try{var c=localStorage.getItem('lang');var here='en';if(c&&c!==here){location.replace(c==='tr'?'tr/':'./');return}if(!c&&here==='en'&&/^tr\b/i.test(navigator.language||'')){localStorage.setItem('lang','tr');location.replace('tr/')}}catch(e){}})();</script>
+<script>(function(){try{var c=localStorage.getItem('lang');var here='en';if(c&&c!==here){location.replace(c==='tr'?'tr/':'./')}}catch(e){}})();</script>
 <header class="top"><div class="wrap"><a href="./"><img src="assets/logo.png" alt="SpectAll"></a>
-<nav class="lang"><a href="tr/" class="" hreflang="tr" onclick="try{localStorage.setItem('lang','tr')}catch(e){}">TR</a><span>|</span><a href="./" class="on" hreflang="en" onclick="try{localStorage.setItem('lang','en')}catch(e){}">EN</a></nav></div></header>
+<nav class="lang"><a href="./" class="on" hreflang="en" onclick="try{localStorage.setItem('lang','en')}catch(e){}">EN</a><span>|</span><a href="tr/" class="" hreflang="tr" onclick="try{localStorage.setItem('lang','tr')}catch(e){}">TR</a></nav></div></header>
 <section class="hero"><div class="wrap"><div class="txt"><img class="logo" src="assets/logo.png" alt="SpectAll">
 <h1>Value, trend and profit/loss<br>of everything you own<br>at your fingertips!</h1>
 <div class="badges"><span class="soon">Coming soon</span></div></div>
