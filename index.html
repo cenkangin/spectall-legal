@@ -80,7 +80,7 @@ a{color:inherit}img{max-width:100%;height:auto;display:block}
   .bar{display:flex}.foot{padding-bottom:140px}
 }
 </style></head><body>
-<script>(function(){try{var c=localStorage.getItem('lang');var here='en';if(c&&c!==here){location.replace(c==='tr'?'tr/':'./')}}catch(e){}})();</script>
+<script>(function(){try{var c=localStorage.getItem('lang');var here='en';if(c&&c!==here){location.replace(c==='tr'?'tr/':'./');return}if(!c&&here==='en'&&/^tr/i.test(navigator.language||'')){localStorage.setItem('lang','tr');location.replace('tr/')}}catch(e){}})();</script>
 <header class="top"><div class="wrap"><a href="./"><img src="assets/logo.png" alt="SpectAll"></a>
 <nav class="lang"><a href="./" class="on" hreflang="en" onclick="try{localStorage.setItem('lang','en')}catch(e){}">EN</a><span>|</span><a href="tr/" class="" hreflang="tr" onclick="try{localStorage.setItem('lang','tr')}catch(e){}">TR</a></nav></div></header>
 <section class="hero"><div class="wrap"><div class="txt"><img class="logo" src="assets/logo.png" alt="SpectAll">
